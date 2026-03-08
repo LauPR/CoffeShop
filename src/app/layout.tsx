@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 // Metadatos base para la aplicación de la cafetería.
 // Aquí definimos el título y la descripción que se usarán por defecto.
 export const metadata: Metadata = {
-  title: "Cafetería Aurora | Tu café de barrio en digital",
+  title: "Mi Latte | Tu café de barrio en digital",
   description:
-    "Cafetería Aurora: café de especialidad, dulces caseros y ambiente acogedor. Ahora también en el mundo digital.",
+    "Mi Latte: café de especialidad, dulces caseros y ambiente acogedor. Ahora también en el mundo digital.",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-50 text-zinc-900`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-cream text-black`}
       >
         {children}
       </body>

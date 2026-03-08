@@ -32,18 +32,18 @@ const items = [
 
 export function BusinessHighlights() {
   return (
-    <section className="border-b border-zinc-100 bg-white">
+    <section className="border-b border-cream-dark bg-white">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
         <header className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-amber-500">
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-brown-dark">
               Sobre la cafetería
             </p>
-            <h2 className="mt-1 text-2xl font-semibold tracking-tight text-zinc-900 sm:text-3xl">
+            <h2 className="mt-1 text-2xl font-semibold tracking-tight text-brown-darker sm:text-3xl">
               Un lugar físico con visión digital.
             </h2>
           </div>
-          <p className="max-w-md text-sm text-zinc-600">
+          <p className="max-w-md text-sm text-gray-dark">
             Esta página es solo el inicio. El objetivo es que poco a poco
             conviertas tu cafetería en una experiencia completa, tanto en el
             local como en internet.
@@ -56,15 +56,15 @@ export function BusinessHighlights() {
             return (
               <article
                 key={item.title}
-                className="flex h-full flex-col gap-3 rounded-2xl border border-zinc-100 bg-zinc-50/80 p-4 shadow-sm shadow-zinc-100 transition hover:-translate-y-0.5 hover:border-amber-200 hover:shadow-md"
+                className="flex h-full flex-col gap-3 rounded-2xl border border-cream-dark bg-cream/60 p-4 shadow-sm shadow-cream-dark/40 transition hover:-translate-y-0.5 hover:border-brown-light/60 hover:shadow-md"
               >
-                <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-amber-100 text-amber-700">
+                <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-brown-light/25 text-brown-dark">
                   <Icon className="h-4 w-4" />
                 </span>
-                <h3 className="text-sm font-semibold text-zinc-900">
+                <h3 className="text-sm font-semibold text-brown-darker">
                   {item.title}
                 </h3>
-                <p className="text-sm leading-relaxed text-zinc-600">
+                <p className="text-sm leading-relaxed text-gray-dark">
                   {item.description}
                 </p>
               </article>

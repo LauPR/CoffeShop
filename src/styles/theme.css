@@ -1,0 +1,23 @@
+/**
+ * Tema de colores de Mi Latte.
+ * Paleta principal: marrón claro, marrón oscuro, crema, blanco, negro, gris.
+ * Importar este archivo antes o junto a tailwind en globals.css.
+ */
+
+@theme inline {
+  /* Colores principales de la marca */
+  --color-cream: #fdf6e9;
+  --color-cream-dark: #f5e6d3;
+  --color-brown-light: #c4a77d;
+  --color-brown: #a67b5b;
+  --color-brown-dark: #5c4033;
+  --color-brown-darker: #3e2723;
+
+  /* Neutros */
+  --color-white: #ffffff;
+  --color-black: #1a1a1a;
+  --color-gray: #6b7280;
+  --color-gray-light: #9ca3af;
+  --color-gray-dark: #4b5563;
+  --color-gray-darker: #374151;
+}
